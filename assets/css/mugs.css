@@ -1,0 +1,28 @@
+table {
+   text-align: left;
+   position: relative;
+   border-collapse: collapse;
+   margin:0 auto;
+   margin-bottom: 150px;
+ }
+ 
+ table th {
+   background: #2c3b46;
+   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+   text-align: center;
+   padding: 8px;
+   color: aliceblue;
+   width: 210px;
+ }
+ 
+ table tr td {
+   background: #ccc;
+   text-align: center;
+   border: 1px;
+   padding: 7px 0px 7px 0px;
+   height: 70px;
+ }
+
+ tbody td {
+   border-right: rgba(63, 63, 63, 0.507) 1px solid !important;
+ }
