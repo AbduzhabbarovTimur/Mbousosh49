@@ -1,0 +1,800 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <title>МБОУ СОШ 49</title>
+  </head>
+  <body>
+
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo" data-scroll="#intro">МБОУ СОШ 49</div>
+
+          <nav class="nav" id="nav">
+            <a class="nav__link" href="#" data-scroll="#about">О нас </a>
+            <a class="nav__link" href="#" data-scroll="#services"></a>
+            <a class="nav__link" href="#" data-scroll="#blog">Мероприятия</a>
+            <a class="nav__link" href="#" data-scroll="#mugs">Кружки</a>
+            <a class="nav__link" href="#" data-scroll="#fhotoes">Фото</a>
+            <a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+            <a class="nav__link" href="untitled3/register.html">Регистрация</a>
+          </nav>
+
+          <button class="nav-toggle" id="nav_toggle" type="button">
+            <span class="nav-toggle__item">Меню</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="page">
+      <!-- Intro -->
+      <div class="intro" id="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <h1 class="intro__title">
+              Добро пожаловать<br />
+              на сайт рекреации школы
+            </h1>
+
+            <a class="btn-look" href="#" data-scroll="#about">Узнать больше</a>
+          </div>
+        </div>
+
+        <div class="slider">
+          <div class="container">
+            <div class="slider__inner">
+              <div class="slider__item active">
+                <span class="slider__num">01</span>
+                <span class="slider__text">Интро</span>
+              </div>
+              <div class="slider__item">
+                <span class="slider__num">02</span>
+                <span class="slider__text">Фото</span>
+              </div>
+              <div class="slider__item">
+                <span class="slider__num">03</span>
+                <span class="slider__text">О нас</span>
+              </div>
+              <div class="slider__item">
+                <span class="slider__num">04</span>
+                <span class="slider__text">Контакты</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.intro -->
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">О нас</h2>
+            <div class="section__text">
+              <p>
+                Мы рады приветствовать вас на платформе, где каждый участник
+                нашего школьного сообщества может найти информацию о
+                разнообразных возможностях для интересного и насыщенного досуга.
+                Наша цель - сделать время после занятий стимулирующим,
+                творческим и вдохновляющим для каждого ученика.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="assets/images/about/1.jpg" alt="" />
+                </div>
+                <div class="card__text">Рекреация</div>
+              </div>
+            </div>
+
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="assets/images/about/2.jpg" alt="" />
+                </div>
+                <div class="card__text">Рекреация</div>
+              </div>
+            </div>
+
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="assets/images/about/3.jpg" alt="" />
+                </div>
+                <div class="card__text">Рекреация</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- Statistics -->
+      <div class="statistics">
+        <div class="container">
+          <div class="stat">
+            <div class="stat__item">
+              <div class="stat__count">6</div>
+              <div class="stat__text">Рекреаций</div>
+            </div>
+            <div class="stat__item">
+              <div class="stat__count">700</div>
+              <div class="stat__text">учеников</div>
+            </div>
+            <div class="stat__item">
+              <div class="stat__count">8</div>
+              <div class="stat__text">Кружкков</div>
+            </div>
+            <div class="stat__item">
+              <div class="stat__count">25</div>
+              <div class="stat__text">Учителей</div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Что вы найдете на сайте?</h2>
+          </div>
+
+          <div class="services">
+            <div class="services__item services__item--border">
+              <img
+                class="services__icon"
+                src="assets/images/services/photography.png"
+                alt=""
+              />
+
+              <div class="services__title">Расписание мероприятий</div>
+              <div class="services__text">
+                Будьте в курсе всех ивентов, вечеринок, соревнований и
+                мероприятий, которые проходят в рамках школы.
+              </div>
+            </div>
+            <div class="services__item services__item--border">
+              <img
+                class="services__icon"
+                src="assets/images/services/webdesign.png"
+                alt=""
+              />
+
+              <div class="services__title">Клубы и кружки</div>
+              <div class="services__text">
+                Исследуйте различные клубы и кружки, где вы сможете развивать
+                свои интересы и таланты.
+              </div>
+            </div>
+            <div class="services__item services__item--border">
+              <img
+                class="services__icon"
+                src="assets/images/services/creativity.png"
+                alt=""
+              />
+
+              <div class="services__title">Фото</div>
+              <div class="services__text">
+                Посмотрите яркие моменты школьной жизни, запечатленные нашими
+                фотографами
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- Devices -->
+      <section class="section section--devices">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Дизайн сайта</h2>
+          </div>
+
+          <div class="devices">
+            <img class="devices__item" src="assets/images/tablet.png" alt="" />
+            <img
+              class="devices__item devices__item--iphone"
+              src="assets/images/telephone.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Wedo -->
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Инструкция пользования сайтом</h2>
+            <div class="section__text">
+              <p>
+                Для того чтобы максимально эффективно пользоваться всеми
+                возможностями нашей платформы, ознакомьтесь с простой
+                инструкцией ниже:
+              </p>
+            </div>
+          </div>
+
+          <div class="wedo">
+            <div class="wedo__item">
+              <img class="wedo__img" src="assets/images/wedo.png" alt="" />
+            </div>
+
+            <div class="wedo__item">
+              <div class="accordion">
+                <div class="accordion__item" data-collapse="#wedo_1">
+                  <div class="accordion__header">
+                    <img
+                      class="accordion__icon"
+                      src="assets/images/services/photography.png"
+                      alt=""
+                    />
+                    <div class="accordion__title">Навигация по сайту</div>
+                  </div>
+                  <div class="accordion__content" id="wedo_1">
+                    <p>
+                      Для перемещения по разделам сайта используйте главное
+                      меню, которое находится в верхней части страницы. Для
+                      быстрого доступа к определенным разделам используйте
+                      выпадающие меню или ссылки на главной странице.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion__item active" data-collapse="#wedo_2">
+                  <div class="accordion__header">
+                    <img
+                      class="accordion__icon"
+                      src="assets/images/services/creativity.png"
+                      alt=""
+                    />
+                    <div class="accordion__title">
+                      Просмотр расписания мероприятий
+                    </div>
+                  </div>
+                  <div class="accordion__content" id="wedo_2">
+                    <p>
+                      На главной странице сайта или в разделе "Мероприятия"
+                      найдите актуальное расписание мероприятий. Нажмите на
+                      интересующее вас событие, чтобы узнать подробности, время,
+                      место проведения и другую важную информацию.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion__item" data-collapse="#wedo_3">
+                  <div class="accordion__header">
+                    <img
+                      class="accordion__icon"
+                      src="assets/images/services/webdesign.png"
+                      alt=""
+                    />
+                    <div class="accordion__title">Просмотр фото</div>
+                  </div>
+                  <div class="accordion__content" id="wedo_3">
+                    <p>
+                      Переходите в раздел "Фото", чтобы просмотреть фотографии с
+                      различных событий школы. Наслаждайтесь яркими моментами и
+                      вспоминайте увлекательные события.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- /.accordion -->
+            </div>
+            <!-- /.wedo__item -->
+          </div>
+          <!-- /.wedo -->
+        </div>
+      </section>
+
+      <!-- Reviews 1 -->
+      <div class="section section--gray">
+        <div class="container">
+          <div class="reviews">
+            <div data-slider>
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="assets/images/avatar.png"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    Мы рады приветсвовать вас и надеемся, что наше пространство станет для
+                    вас местом веселых открытий, ярки впечатлений
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="assets/images/avatar.png"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    Погрузитесь в мир развлечений и возможностей, который мы создали для вас!
+                    Добро пожаловать в увлекательно путешествие по миру радости и вдохновения!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team -->
+      <section class="section" id="mugs">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Кружки</h2>
+            <div class="section__text">
+              <p>
+                Присоединяйтесь к нашим кружкам, раскройте свой потенциал, обретите новых друзей и наслаждайтесь 
+                процессом творчества и саморазвития. Вместе мы создаем уникальное сообщество, где каждый может 
+                найти то, что ищет, и стать лучше вместе с нами.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                 <a href="mugs.html"> <img src="assets/images/team/1.jpg" alt="" /> </a>
+                </div>
+                <div class="card__text">
+                  Изо
+                </div>
+              </div>
+            </div>
+            <!-- /.card__item -->
+
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <a href="mugs.html"> <img src="assets/images/team/2.jpg" alt="" /> </a>
+                </div>
+                <div class="card__text">
+                  Игра на гитаре
+                </div>
+              </div>
+            </div>
+            <!-- /.card__item -->
+
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <a href="mugs.html"> <img src="assets/images/team/3.jpg" alt="" /> </a>
+                </div>
+                <div class="card__text">
+                  Python
+                </div>
+              </div>
+            </div>
+            <!-- /.card__item -->
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- Logos -->
+      <div class="section section--gray">
+        <div class="container">
+          <div class="logos">
+            <div class="logos__item">
+              <img class="logos__img" src="assets/images/logos/1.png" alt="" />
+            </div>
+            <div class="logos__item">
+              <img class="logos__img" src="assets/images/logos/2.png" alt="" />
+            </div>
+            <div class="logos__item">
+              <img class="logos__img" src="assets/images/logos/3.png" alt="" />
+            </div>
+            <div class="logos__item">
+              <img class="logos__img" src="assets/images/logos/4.png" alt="" />
+            </div>
+            <div class="logos__item">
+              <img class="logos__img" src="assets/images/logos/5.png" alt="" />
+            </div>
+            <div class="logos__item">
+              <img class="logos__img" src="assets/images/logos/6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Works -->
+      <section class="section" id="fhotoes">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Фото</h2>
+            <div class="section__text">
+              <p>
+                На нашем сайте рекреации школы вы найдете увлекательные фотоотчеты, запечатлевшие 
+                самые важные моменты нашей школьной жизни. Здесь каждый кадр — это кусочек 
+                незабываемых впечатлений, радости и дружбы.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="works">
+          <div class="works__col">
+            <div class="works__item">
+              <a href="fhoto.html">
+                <img
+                  class="works__image"
+                  src="assets/images/works/1.jpg"
+                  alt=""
+              /></a>
+              <div class="works__info">
+                <div class="works__text">Фото</div>
+              </div>
+            </div>
+            <div class="works__item">
+              <a href="fhoto.html">
+                <img
+                  class="works__image"
+                  src="assets/images/works/2.jpg"
+                  alt=""
+              /></a>
+              <div class="works__info">
+                <div class="works__text">Фото</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="works__col">
+            <div class="works__item">
+              <a href="fhoto.html">
+                <img
+                  class="works__image"
+                  src="assets/images/works/3.jpg"
+                  alt=""
+              /></a>
+              <div class="works__info">
+                <div class="works__text">Фото</div>
+              </div>
+            </div>
+            <div class="works__item">
+              <a href="fhoto.html"
+                ><img
+                  class="works__image"
+                  src="assets/images/works/4.jpg"
+                  alt=""
+              /></a>
+              <div class="works__info">
+                <div class="works__text">Фото</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="works__col">
+            <div class="works__item">
+              <a href="fhoto.html"
+                ><img
+                  class="works__image"
+                  src="assets/images/works/5.jpg"
+                  alt=""
+              /></a>
+              <div class="works__info">
+                <div class="works__text">Фото</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="works__col">
+            <div class="works__item">
+              <a href="fhoto.html"
+                ><img
+                  class="works__image"
+                  src="assets/images/works/6.jpg"
+                  alt=""
+              /></a>
+              <div class="works__info">
+                <div class="works__text">Фото</div>
+              </div>
+            </div>
+            <div class="works__item">
+              <a href="fhoto.html"
+                ><img
+                  class="works__image"
+                  src="assets/images/works/7.jpg"
+                  alt=""
+              /></a>
+              <div class="works__info">
+                <div class="works__text">Фото</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.works -->
+      </section>
+
+      <!-- Reviews 2 -->
+      <div class="section section--gray">
+        <div class="container">
+          <div class="reviews">
+            <div data-slider>
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="assets/images/avatar.png"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    Погрузитесь в атмосферу наших мероприятий, где каждый
+                    улыбающийся взгляд и каждый восторженный жест говорят 
+                    о том, какая неповторимая школа у нас есть
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="assets/images/avatar.png"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    И следите за нашими фотоотчетами, чтобы быть в курсе всех
+                    событий школьной жизни. Приглашаем вас ощутить всю гамму
+                    чувств и эмоций, которые передают наши фотографии
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Blog -->
+      <section class="section" id="blog">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Мероприятия</h2>
+          </div>
+
+          <div class="blog">
+            <div class="blog__item">
+              <div class="blog__header">
+                <a href="events.html">
+                  <img
+                    class="blog__photo"
+                    src="assets/images/blog/1.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="blog__date">
+                  <div class="blog__date-day">15</div>
+                  Янв
+                </div>
+              </div>
+              <div class="blog__content">
+                <div class="blog__title">
+                  <a href="events.html">Урок игры на гитаре</a>
+                </div>
+                <div class="blog__text">
+                  Присоединяйтесь к нашему закватывающему уроку игры на гитаре.
+                  Хотите освоить новое увлекательное умение и погрузиться в мир музыки с первых аккордов?
+                  Тогда это мероприятие для вас!
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__item">
+              <div class="blog__header">
+                <a href="events.html">
+                  <img
+                    class="blog__photo"
+                    src="assets/images/blog/2.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="blog__date">
+                  <div class="blog__date-day">28</div>
+                  Фев
+                </div>
+              </div>
+              <div class="blog__content">
+                <div class="blog__title">
+                  <a href="events.html">Программирование на Python</a>
+                </div>
+                <div class="blog__text">
+                 Хотите погрузиться в захватывающий мир программирования на Pyhton?
+                 Тогда приглашаем вас на наш урок по изучению этого универсального 
+                 языка программирования
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__item">
+              <div class="blog__header">
+                <a href="events.html">
+                  <img
+                    class="blog__photo"
+                    src="assets/images/blog/3.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="blog__date">
+                  <div class="blog__date-day">30</div>
+                  Март
+                </div>
+              </div>
+              <div class="blog__content">
+                <div class="blog__title">
+                  <a href="events.html">Урок по Тхэквондо</a>
+                </div>
+                <div class="blog__text">
+                  Присоединяйтесь к нашей дружной команде тхэквондистов, чтобы раскрыть свой потенциал, 
+                  научиться новым навыкам и прокачать свое тело и ум!
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.blog -->
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__col footer__col--first">
+              <div class="footer__logo">МБОУ СОШ 49</div>
+              <div class="footer__text">
+                На нашем сайте вы найдете множество интересных идей для
+                проведения времени после занятий. Мы предлагаем широкий выбор
+                развлечений и активностей для всех возрастов: от спортивных
+                мероприятий и художественных кружков до концертов, театральных
+                постановок и тематических вечеров.
+              </div>
+
+              <div class="footer__social">
+                <div class="footer__social-content">
+                  Номер телефона : +7914561665
+                </div>
+              </div>
+              <div class="footer__social">
+                <div class="footer__social-content">
+                  Электронная почта : mbou-sosh49@gmail.com
+                </div>
+              </div>
+            </div>
+            <!-- /.footer__col -->
+
+            <div class="footer__col footer__col--second">
+              <div class="footer__title">Мероприятия</div>
+
+              <div class="blogs">
+                <div class="blogs__item">
+                  <img
+                    class="blogs__img"
+                    src="assets/images/blog/1.jpg"
+                    alt=""
+                  />
+                  <div class="blogs__content">
+                    <a class="blogs__title" href="events.html"
+                      >Урок игры на гитаре</a
+                    >
+                    <div class="blogs__date">15 Янв, 2024</div>
+                  </div>
+                </div>
+
+                <div class="blogs__item">
+                  <img
+                    class="blogs__img"
+                    src="assets/images/blog/2.jpg"
+                    alt=""
+                  />
+                  <div class="blogs__content">
+                    <a class="blogs__title" href="events.html">Python</a>
+                    <div class="blogs__date">28 Фев, 2024</div>
+                  </div>
+                </div>
+
+                <div class="blogs__item">
+                  <img
+                    class="blogs__img"
+                    src="assets/images/blog/3.jpg"
+                    alt=""
+                  />
+                  <div class="blogs__content">
+                    <a class="blogs__title" href="events.html"
+                      >Урок по Тхэквондо</a
+                    >
+                    <div class="blogs__date">30 Март, 2024</div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.blogs -->
+            </div>
+
+            <div class="footer__col footer__col--third">
+              <div class="footer__title">Вконтакт</div>
+
+              <div class="vk">
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/1.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/2.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/3.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/4.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/5.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/6.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/7.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/8.jpg" alt="" />
+                </a>
+                <a class="vk__item" href="#" target="_blank">
+                  <img src="assets/images/vk/9.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /.footer__inner -->
+        </div>
+        <!-- /.container -->
+        <div class="container-google-maps">
+          <iframe class="google-maps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2649.5410259182413!2d135.1153257755462!3d48.38855243365669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5efae9f1968a55c9%3A0xc1cc2bfff625a27!2z0KjQutC-0LvQsCDihJYgNDk!5e0!3m2!1sru!2sru!4v1740819736836!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </footer>
+    </div>
+    <!-- /.page -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
